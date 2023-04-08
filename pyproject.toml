@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "proto-1"
+version = "0.1.0"
+description = ""
+authors = ["Saucisse à roulettes <gaelmonach123@live.fr>"]
+readme = "README.md"
+packages = [{include = "proto_1"}]
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+pyside6 = "^6.5.0"
+
+
+[tool.poetry.group.apprearance.dependencies]
+black = "^23.3.0"
+
+
+[tool.poetry.group.typing.dependencies]
+mypy = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
